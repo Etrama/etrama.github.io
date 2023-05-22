@@ -18,7 +18,7 @@ on:
         hugoVersion:
           description: "Hugo Version"
           required: false
-          default: "0.97.1"
+          default: "0.111.3"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
