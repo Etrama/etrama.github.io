@@ -1,6 +1,6 @@
 ---
 title: "FastAI Contribution"
-date: 2017-07-10T13:25:11-04:00
+date: 2018-10-17T13:25:11-04:00
 draft: false
 author: "Kaushik Moudgalya"
 showtoc: false

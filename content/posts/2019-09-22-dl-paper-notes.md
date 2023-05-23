@@ -1,6 +1,6 @@
 ---
 title: "DL Paper Notes"
-date: 2017-07-10T13:25:11-04:00
+date: 2019-09-22T13:25:11-04:00
 draft: false
 author: "Kaushik Moudgalya"
 showtoc: false

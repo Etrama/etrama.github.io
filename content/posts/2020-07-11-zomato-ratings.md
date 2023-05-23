@@ -1,6 +1,6 @@
 ---
 title: "Zomato Ratings Prediction Challenge"
-date: 2017-07-10T13:25:11-04:00
+date: 2020-07-11T13:25:11-04:00
 draft: false
 author: "Kaushik Moudgalya"
 showtoc: false

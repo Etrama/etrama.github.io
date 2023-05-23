@@ -1,6 +1,6 @@
 ---
-title: "Atmospheric Event Classification"
-date: 2017-07-10T13:25:11-04:00
+title: "Weather Events Classification"
+date: 2021-10-15T13:25:11-04:00
 draft: false
 author: "Kaushik Moudgalya"
 showtoc: false

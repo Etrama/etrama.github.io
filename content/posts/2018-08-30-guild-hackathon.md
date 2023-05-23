@@ -1,6 +1,6 @@
 ---
-title: "DataRobot Ideation Challenge"
-date: 2017-07-10T13:25:11-04:00
+title: "Deloitte 2018 ML Guild Hackathon"
+date: 2018-08-30T13:25:11-04:00
 draft: false
 author: "Kaushik Moudgalya"
 showtoc: false
