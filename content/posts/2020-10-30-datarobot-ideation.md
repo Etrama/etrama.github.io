@@ -10,5 +10,4 @@ showtoc: false
 #     caption: 'Me'
 tags: ["Machine Learning"]
 ---
-Second place.
-Cleaned data, validated accuracy of data, engineered features, used conventional Machine Learning models and AutoML.
+This challenge was a competition hosted within Deloitte, on a platform called `DLabs` with cash prizes for podium finishes. It was a Kaggle style competition with public and private leaderboards. Our team managed to place `Second`.  

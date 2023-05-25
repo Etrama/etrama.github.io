@@ -3,7 +3,7 @@ title: "Deloitte 2018 ML Guild Hackathon"
 date: 2018-08-30T13:25:11-04:00
 draft: false
 author: "Kaushik Moudgalya"
-showtoc: false
+showtoc: True
 # cover:
 #     image: img/ash_lynx.jpg
 #     alt: 'image of me'
@@ -11,7 +11,7 @@ showtoc: false
 tags: ["Machine Learning", "Plotly", "sklearn", "XGBoost", "Random Forests", "Neural Networks", "Deloitte"]
 ---
 
-##### [View this project on Github](https://github.com/mmehta0943/ML-grocery-gap/tree/master)
+[View this project on Github](https://github.com/mmehta0943/ML-grocery-gap/tree/master)
 
 ### Background
 Every year the Deloitte Machine Learning Guild hosts an their annual hackathon, which is the largest Data Science / ML hackathon of its kind within Deloitte. Interested folks form teams of 2-4 people and work on the assigned hackathon theme for a duration of 2-4 weeks, after which the teams are judged based on a variety of criteria. The judges are Deloite ML Guild Masters who are subject matter experts in ML and DS, as well as partners who are interested in the field. The winning team gets a cash prize (USD 500 each) and a chance to present their work to the entire ML Guild.

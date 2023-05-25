@@ -10,4 +10,6 @@ showtoc: false
 #     caption: 'Me'
 tags: ["Machine Learning"]
 ---
+[View this project on Github](https://github.com/Etrama/DL-Paper-Notes)
+
 My notes on a few Deep Learning papers. Hopefully, I improve my understanding of Deep Learning in the process (also helps when I want to revisit the paper) while making it easier for other people to read papers.

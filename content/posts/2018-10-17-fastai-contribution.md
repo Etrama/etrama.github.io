@@ -10,4 +10,5 @@ showtoc: false
 #     caption: 'Me'
 tags: ["Machine Learning"]
 ---
-Contributed to a guide to help resolve Jupyter Notebook connection for the FAST AI library being run on Paperspace. The medium article on the same topic has over 3.5k views.
+Contributed to a guide to help resolve Jupyter Notebook connection for the FAST AI library being run on Paperspace. The medium article on the same topic has over 5k views.
+You can read the article [here](https://medium.com/p/ff7c390b1a48).
