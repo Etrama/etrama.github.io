@@ -42,7 +42,7 @@ Based on these two models, we create a matrix as follows:
 | Increase | Decrease | Ideal|
 | Increase | Increase | Monitor concentration of stores & population served|
 
-We then used this ranking to create a map of the US, where the counties are colored based on their need for a grocery store. This map can be used by local governments to decide where to provide benefits and subsidies to open new grocery stores.  
+We then used this ranking to create a map of the US, where the counties are colored based on their need for a grocery store. This map can be used by local governments to decide where to provide benefits and subsidies to open new grocery stores. One major feature that both we and the judges seemed to like about our approach is that is uses no PII / PHI (Personally Identifiable Information / Person Health Information) data about the people themselves.
 
 ### Future Work
 - I want to check whether I can somehow add to the analysis performed by Alana and her colleagues in their work.
