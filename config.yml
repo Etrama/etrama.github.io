@@ -45,9 +45,7 @@ params:
       url: "https://twitter.com/Banana_Leopard"
     - name: email
       url: "mailto:kaushikmoudgalya@gmail.com"
-  analytics: true
-    google:
-      SiteVerificationTag: "G-ZQRQFZ413J"
+
   # editPost:
   #       URL: "https://github.com/<gitlab user>/<repo name>/tree/<branch name>/<path to content>/"
   #       Text: "Suggest Changes" # edit text
@@ -193,9 +191,9 @@ enableRobotsTXT: true
 #     Content: Welcome to my blog
 
 
-# analytics:
-#   google:
-#     SiteVerificationTag: "G-ZQRQFZ413J"
+analytics:
+  google:
+    SiteVerificationTag: "G-ZQRQFZ413J"
   #   bing:
   #     SiteVerificationTag: "XYZabc"
   #   yandex:
