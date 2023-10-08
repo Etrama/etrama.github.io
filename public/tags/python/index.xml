@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Old Habits AI Hard</title>
+    <link>https://Etrama.github.io/tags/python/</link>
+    <description>Recent content in Python on Old Habits AI Hard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Jun 2018 13:25:11 -0400</lastBuildDate><atom:link href="https://Etrama.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects @ Deloitte</title>
+      <link>https://Etrama.github.io/posts/2018-06-10-deloitte-projects/</link>
+      <pubDate>Sun, 10 Jun 2018 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2018-06-10-deloitte-projects/</guid>
+      <description>This post is a collection of projects I have worked on at Deloitte. These aren&amp;rsquo;t related to Machine Learning per se. The ML projects at Deloitte are tagged as Deloitte in their respective posts.
+Oracle Security and Controls: Implemented Oracle EBS and Oracle Cloud Security and Controls on FSCM (Financial Supply Chain Management) and HCM (Human Capital Management) modules on multiple client engagements. Responsible for role builds, defect resolution, data security and access provisioning.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous Projects</title>
+      <link>https://Etrama.github.io/posts/2016-12-10-misc-projects/</link>
+      <pubDate>Sat, 10 Dec 2016 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2016-12-10-misc-projects/</guid>
+      <description>Some random projects that I have worked on: Excel_editor - Python script to automate and simplify common Excel tasks 9gag_scraper - Python script to scrape 9gag gifmymovies - Project to convert songs into gifs Scraping-Cleaning-Threading - Multithreaded scraping in Python Machine Learning for Book Recommendation Systems ML-Insurance-Competition - Prediction of Valid Insurance Claims Pork Price Prediction IMDB Sentiment Review </description>
+    </item>
+    
+  </channel>
+</rss>

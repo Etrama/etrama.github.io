@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Old Habits AI Hard</title>
+    <link>https://Etrama.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Old Habits AI Hard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Oct 2023 18:36:11 -0400</lastBuildDate><atom:link href="https://Etrama.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demystifying the mathematics behind PCA</title>
+      <link>https://Etrama.github.io/posts/2023-10-07-pca/</link>
+      <pubDate>Sat, 07 Oct 2023 18:36:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2023-10-07-pca/</guid>
+      <description>View this post as a Jupyter Notebook
+Background Every year the Deloitte Machine Learning Guild hosts an their annual hackathon, which is the largest Data Science / ML hackathon of its kind within Deloitte. Interested folks form teams of 2-4 people and work on the assigned hackathon theme for a duration of 2-4 weeks, after which the teams are judged based on a variety of criteria. The judges are Deloite ML Guild Masters who are subject matter experts in ML and DS, as well as partners who are interested in the field.</description>
+    </item>
+    
+    <item>
+      <title>NHL Data Science Project</title>
+      <link>https://Etrama.github.io/posts/2021-12-23-nhl-ds-project/</link>
+      <pubDate>Thu, 23 Dec 2021 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2021-12-23-nhl-ds-project/</guid>
+      <description>Implemented a complete Data Science pipeline: data collection, tidying data, creation of synthetic features, basic and advanced interactive visualizations using plotly, tracking models through CometML, deploying models through a REST API using Docker and Flask.</description>
+    </item>
+    
+    <item>
+      <title>Crop Harvest Classification</title>
+      <link>https://Etrama.github.io/posts/2021-11-30-crop-harvest/</link>
+      <pubDate>Tue, 30 Nov 2021 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2021-11-30-crop-harvest/</guid>
+      <description>Given meteorological and satellite data, predicted land as either crop or non-crop land. Used techniques such as AutoML (Light AutoML and PyCaret) as well as blending and stacking to reduce bias and generalize better. Check out the doc link for a more detailed overview of the project.</description>
+    </item>
+    
+    <item>
+      <title>Weather Events Classification</title>
+      <link>https://Etrama.github.io/posts/2021-10-15-weather-events/</link>
+      <pubDate>Fri, 15 Oct 2021 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2021-10-15-weather-events/</guid>
+      <description>Classified events as either standard background conditions / tropical cyclones or atmospheric rivers. Used techniques such as SMOTE and SMOTE Tomek to fix class imbalance, hyperparameter tuning using HalvingRandomGridSearchCV, manual feature engineering, and a plethora of sklearn classification algorithms. Check out the doc link for a more detailed overview of the project.</description>
+    </item>
+    
+    <item>
+      <title>Anime Project</title>
+      <link>https://Etrama.github.io/posts/2021-07-23-anime-project/</link>
+      <pubDate>Fri, 23 Jul 2021 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2021-07-23-anime-project/</guid>
+      <description>My current magnum opus. Consecutively scraped a ton of images for the top 100 anime followed by scraping even more than a ton of images of the top 10 characters in each anime. The goal was to try to identify anime using a ML model and when successful, we planned to identify the characters in the image as well. WIP.</description>
+    </item>
+    
+    <item>
+      <title>Whitepaper: Ethically mitigating biases in DS / ML</title>
+      <link>https://Etrama.github.io/posts/2021-01-30-whitepaper-ethics/</link>
+      <pubDate>Sat, 30 Jan 2021 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2021-01-30-whitepaper-ethics/</guid>
+      <description>The paper provides techniques and a checklist to prevent bias from creeping into Machine Learning models. (Co-author)</description>
+    </item>
+    
+    <item>
+      <title>DataRobot Ideation Challenge</title>
+      <link>https://Etrama.github.io/posts/2020-10-30-datarobot-ideation/</link>
+      <pubDate>Fri, 30 Oct 2020 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2020-10-30-datarobot-ideation/</guid>
+      <description>This challenge was a competition hosted within Deloitte, on a platform called DLabs with cash prizes for podium finishes. It was a Kaggle style competition with public and private leaderboards. Our team managed to place Second.</description>
+    </item>
+    
+    <item>
+      <title>Zomato Ratings Prediction Challenge</title>
+      <link>https://Etrama.github.io/posts/2020-07-11-zomato-ratings/</link>
+      <pubDate>Sat, 11 Jul 2020 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2020-07-11-zomato-ratings/</guid>
+      <description>View this project on Github
+This challenge was a competition hosted within Deloitte, on a platform called DLabs with cash prizes for podium finishes. It was a Kaggle style competition with public and private leaderboards. Our team managed to place Third.
+I worked on this competition with Navaneesh Gangala. I was responsible for cleaning data, validating the integrity of the cleaned data, engineering features, training models, using AutoML and ensembling models, etc.</description>
+    </item>
+    
+    <item>
+      <title>DL Paper Notes</title>
+      <link>https://Etrama.github.io/posts/2019-09-22-dl-paper-notes/</link>
+      <pubDate>Sun, 22 Sep 2019 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2019-09-22-dl-paper-notes/</guid>
+      <description>View this project on Github
+My notes on a few Deep Learning papers. Hopefully, I improve my understanding of Deep Learning in the process (also helps when I want to revisit the paper) while making it easier for other people to read papers.</description>
+    </item>
+    
+    <item>
+      <title>FastAI Contribution</title>
+      <link>https://Etrama.github.io/posts/2018-10-17-fastai-contribution/</link>
+      <pubDate>Wed, 17 Oct 2018 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2018-10-17-fastai-contribution/</guid>
+      <description>Contributed to a guide to help resolve Jupyter Notebook connection for the FAST AI library being run on Paperspace. The medium article on the same topic has over 5k views. You can read the article here.</description>
+    </item>
+    
+    <item>
+      <title>Whitepaper: Bridging the Dataspace in ML</title>
+      <link>https://Etrama.github.io/posts/2018-09-15-whitepaper-dataspace/</link>
+      <pubDate>Sat, 15 Sep 2018 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2018-09-15-whitepaper-dataspace/</guid>
+      <description>TL;DR (Too Long; Didn&amp;rsquo;t Read) The paper addresses the following topics:
+Addressed the problem of silo&amp;rsquo;ing of data. Addressed how we could update / upgrade Machine Learning models on the fly to accomodate data drift. Discussed how to develop a new kind of data scientist who would possess both technical and business skills. Discussed how this new kind of data scientist would fit into and be aided by Agile pods. This approach would be quicker than waiting for a Data Scientist to develop business skills or vice-versa.</description>
+    </item>
+    
+    <item>
+      <title>Deloitte 2018 ML Guild Hackathon</title>
+      <link>https://Etrama.github.io/posts/2018-08-30-guild-hackathon/</link>
+      <pubDate>Thu, 30 Aug 2018 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2018-08-30-guild-hackathon/</guid>
+      <description>View this project on Github
+Background Every year the Deloitte Machine Learning Guild hosts an their annual hackathon, which is the largest Data Science / ML hackathon of its kind within Deloitte. Interested folks form teams of 2-4 people and work on the assigned hackathon theme for a duration of 2-4 weeks, after which the teams are judged based on a variety of criteria. The judges are Deloite ML Guild Masters who are subject matter experts in ML and DS, as well as partners who are interested in the field.</description>
+    </item>
+    
+    <item>
+      <title>Projects @ Deloitte</title>
+      <link>https://Etrama.github.io/posts/2018-06-10-deloitte-projects/</link>
+      <pubDate>Sun, 10 Jun 2018 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2018-06-10-deloitte-projects/</guid>
+      <description>This post is a collection of projects I have worked on at Deloitte. These aren&amp;rsquo;t related to Machine Learning per se. The ML projects at Deloitte are tagged as Deloitte in their respective posts.
+Oracle Security and Controls: Implemented Oracle EBS and Oracle Cloud Security and Controls on FSCM (Financial Supply Chain Management) and HCM (Human Capital Management) modules on multiple client engagements. Responsible for role builds, defect resolution, data security and access provisioning.</description>
+    </item>
+    
+    <item>
+      <title>Miscellaneous Projects</title>
+      <link>https://Etrama.github.io/posts/2016-12-10-misc-projects/</link>
+      <pubDate>Sat, 10 Dec 2016 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2016-12-10-misc-projects/</guid>
+      <description>Some random projects that I have worked on: Excel_editor - Python script to automate and simplify common Excel tasks 9gag_scraper - Python script to scrape 9gag gifmymovies - Project to convert songs into gifs Scraping-Cleaning-Threading - Multithreaded scraping in Python Machine Learning for Book Recommendation Systems ML-Insurance-Competition - Prediction of Valid Insurance Claims Pork Price Prediction IMDB Sentiment Review </description>
+    </item>
+    
+  </channel>
+</rss>

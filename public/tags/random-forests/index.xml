@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random Forests on Old Habits AI Hard</title>
+    <link>https://Etrama.github.io/tags/random-forests/</link>
+    <description>Recent content in Random Forests on Old Habits AI Hard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 30 Aug 2018 13:25:11 -0400</lastBuildDate><atom:link href="https://Etrama.github.io/tags/random-forests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deloitte 2018 ML Guild Hackathon</title>
+      <link>https://Etrama.github.io/posts/2018-08-30-guild-hackathon/</link>
+      <pubDate>Thu, 30 Aug 2018 13:25:11 -0400</pubDate>
+      
+      <guid>https://Etrama.github.io/posts/2018-08-30-guild-hackathon/</guid>
+      <description>View this project on Github
+Background Every year the Deloitte Machine Learning Guild hosts an their annual hackathon, which is the largest Data Science / ML hackathon of its kind within Deloitte. Interested folks form teams of 2-4 people and work on the assigned hackathon theme for a duration of 2-4 weeks, after which the teams are judged based on a variety of criteria. The judges are Deloite ML Guild Masters who are subject matter experts in ML and DS, as well as partners who are interested in the field.</description>
+    </item>
+    
+  </channel>
+</rss>

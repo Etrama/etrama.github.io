@@ -1,9 +1,7 @@
-baseURL: "https://Etrama.github.io/"
+baseURL: "https://etrama.github.io/"
 title: Old Habits AI Hard
 paginate: 10
 theme: PaperMod
-
-# googleAnalytics: G-ZQRQFZ413J
 
 minify:
   disableXML: true
@@ -47,6 +45,9 @@ params:
       url: "https://twitter.com/Banana_Leopard"
     - name: email
       url: "mailto:kaushikmoudgalya@gmail.com"
+  analytics: true
+    google:
+      SiteVerificationTag: "G-ZQRQFZ413J"
   # editPost:
   #       URL: "https://github.com/<gitlab user>/<repo name>/tree/<branch name>/<path to content>/"
   #       Text: "Suggest Changes" # edit text
