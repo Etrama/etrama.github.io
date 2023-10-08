@@ -71,7 +71,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/themes/hugo-PaperMod"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/themes/papermod"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
