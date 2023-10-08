@@ -1,8 +1,7 @@
 baseURL: "https://etrama.github.io/"
 title: Old Habits AI Hard
 paginate: 10
-theme: papermod-edited #change to papermod if this doesn't work
-
+theme: "papermod-koko"
 
 minify:
   disableXML: true
