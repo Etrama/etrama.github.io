@@ -190,10 +190,10 @@ enableRobotsTXT: true
 #     Title: "Hi there \U0001F44B"
 #     Content: Welcome to my blog
 
-
-analytics:
-  google:
-    SiteVerificationTag: "G-ZQRQFZ413J"
+googleAnalytics: "G-ZQRQFZ413J"
+# analytics:
+#   google:
+#     SiteVerificationTag: "G-ZQRQFZ413J"
   #   bing:
   #     SiteVerificationTag: "XYZabc"
   #   yandex:
