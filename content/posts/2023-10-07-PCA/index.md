@@ -858,7 +858,7 @@ We use these eigenvalues to then pick the top $n$ eigenvectors corresponding to 
 $$\mathbf{\Lambda_n} = \text{diag}(\mathbf{\Lambda_{\text{sorted}}[:n]})$$
 $$\mathbf{\Lambda_n} \rightarrow \mathbf{P_n}$$
 $$\mathbf{P_n} = \mathbf{P[:, :n]}$$
-The notation at the end is just numpy notation for picking all rows and the first $n$ columns of the matrix $\mathbf{X}$.
+The notation at the end is just numpy notation for picking all rows and the first $n$ columns of the matrix $\mathbf{P}$.
 
 $P_n$ is the projection matrix. We then multiply the original $(k,m)$ dimensional matrix by the $(m,n)$ dimensional projection matrix to obtain the $(k,n)$ dimensional matrix. Is this the end of the story? Are we finally done with this long long post? Do I just simply multiply the input matrix X?
 $$\mathbf{X} \mathbf{P_n} \rightarrow (k,n)$$
