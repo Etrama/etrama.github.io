@@ -424,7 +424,7 @@ np.array([vector1, vector2])
 
 
 ```python
-def plot_vectors(list_of_vectors):
+def plot_vectors(list_of_vectors, plot_title):
     # https://saturncloud.io/blog/how-to-plot-vectors-in-python-using-matplotlib-a-guide-for-data-scientists/
     fig, ax = plt.subplots()
     # colors = list("bgrcmy")
@@ -438,13 +438,13 @@ def plot_vectors(list_of_vectors):
     # plt.grid()
     plt.xlabel("x axis")
     plt.ylabel("y axis")
-    plt.title("Figure 1: Initial vectors")
+    plt.title(f"Figure: {plot_title}")
     plt.show()
 ```
 
 
 ```python
-plot_vectors([vector1, vector2])
+plot_vectors([vector1, vector2], "Initial Vectors")
 ```
 
 
@@ -472,7 +472,7 @@ matrix1
 ```python
 transformed_vector1 = matrix1.dot(vector1)
 transformed_vector2 = matrix1.dot(vector2)
-plot_vectors([transformed_vector1, transformed_vector2])
+plot_vectors([transformed_vector1, transformed_vector2], "Transformed Vectors")
 # we can see that the matrix has changed the initial vectors
 ```
 
@@ -484,7 +484,7 @@ plot_vectors([transformed_vector1, transformed_vector2])
 
 
 ```python
-plot_vectors([vector1, vector2, transformed_vector1, transformed_vector2])
+plot_vectors([vector1, vector2, transformed_vector1, transformed_vector2], "All vectors")
 ```
 
 
