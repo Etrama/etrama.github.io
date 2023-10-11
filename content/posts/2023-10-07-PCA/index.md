@@ -726,12 +726,12 @@ And we have our second eigenvector: [1, 2] expressed in x-y cartesian co-ordinat
 Say we had to calculate $2^{12}$ and we weren't allowed to use a calculator. We could multiply 2 by hand 12 times, or we could try to be smart and use the fact that $2^{12} = 2^4 * 2^4 * 2^4$. But what if I had to find the 12th power of a matrix? Even multiplying a matrix a couple of times by hand is a pain. We need a trick, much like the one we used for $2^{12}$.
 
 What if we had a m-dimensional square diagonal matrix (mxm) like the one below:
-$$\mathbf{D} = \begin{bmatrix}
+$$\mathbf{D} = 
+\begin{bmatrix}
 d_1 & 0 & \dots & 0 \\\\
 0 & d_2 & \dots & 0 \\\\
 \vdots & \vdots & \ddots & \vdots \\\\
 0 & 0 & \dots & d_m
-
 \end{bmatrix}$$
 
 It would be quite easy to raise this to the second power:
