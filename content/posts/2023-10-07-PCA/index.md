@@ -478,7 +478,7 @@ plot_vectors([transformed_vector1, transformed_vector2], "Transformed Vectors")
 
 
     
-![Vectors after linear transformation](./vectors_after_transformation_matplotlib.png)
+![Vectors after linear transformation](./vectors_after_transformation_matplotlib_new.png)
     
 
 
@@ -489,7 +489,7 @@ plot_vectors([vector1, vector2, transformed_vector1, transformed_vector2], "All 
 
 
     
-![Vectors before and after transformation](./all_vectors_superimposed.png)
+![Vectors before and after transformation](./all_vectors_superimposed_new.png)
     
 
 
