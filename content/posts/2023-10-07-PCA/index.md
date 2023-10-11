@@ -970,7 +970,6 @@ pca(X, 3, standardize=True)
 
 Observe that we get way more amenable projected values when we choose to standardize despite having features in several different scales. PCA is sensitive to the scale of the features entered, so standardizing ensures that we do not assign higher importance to larger features. Standardizing also helps you avoid overflow errors, i.e. numbers that are too large to be represented by your selected datatype. Typically, to standardize you subtract the mean and divide by the standard deviation. 
 $$X_{standardized} = \frac{{X - \mu}}{{\sigma}}$$
-Standard deviation is the root of the variance, so the following matrix equation should now make intuitive sense:
 
 So, finally, we express PCA as:
 $$
@@ -979,7 +978,7 @@ $$
 $$
 \mathbf{Z}=\mathbf{\Lambda}_n^{-\frac{1}{2}} \mathbf{P}_n^T(\mathbf{X}-\overline{\mathbf{X}})
 $$
-$\mathbf{Z}$ is the projection of $\mathbf{X}$ in the lower dimensional space. $\mathbf{\Lambda}_n^{-\frac{1}{2}}$ is the inverse square root of the eigenvalues. This is where we're dividing everything by the standard deviation. $\mathbf{P}_n$ is the projection matrix. $\mathbf{X}$ is the original data. $\overline{\mathbf{X}}$ is the mean of the original data. The two forms are equivalent, we just need to change the order based on the shape of matrix. 
+$\mathbf{Z}$ is the projection of $\mathbf{X}$ in the lower dimensional space. $\mathbf{\Lambda}_n^{-\frac{1}{2}}$ is the inverse square root of the eigenvalues. This is where we're dividing everything by the standard deviation. $\mathbf{P}_n$ is the projection matrix. $\mathbf{X}$ is the original data. $\overline{\mathbf{X}}$ is the mean of the original data. The two forms are equivalent, we just need to change the order based on the shape of matrix. Standard deviation is the root of the variance, so the division by the square root of the eigenvalue matrix (diagonal matrix) or multiplication by the negative half power, is the same as dividing by the standard deviation. In essence, we're just standardizing the data for the reasons we demonstrated in code.
 
 ## What next?
 
