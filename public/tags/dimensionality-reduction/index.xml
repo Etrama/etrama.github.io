@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dimensionality Reduction on Old Habits AI Hard</title>
-    <link>https://Etrama.github.io/tags/dimensionality-reduction/</link>
+    <link>https://etrama.github.io/tags/dimensionality-reduction/</link>
     <description>Recent content in Dimensionality Reduction on Old Habits AI Hard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Oct 2023 18:36:11 -0400</lastBuildDate><atom:link href="https://Etrama.github.io/tags/dimensionality-reduction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 18:36:11 -0400</lastBuildDate><atom:link href="https://etrama.github.io/tags/dimensionality-reduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demystifying the mathematics behind PCA</title>
-      <link>https://Etrama.github.io/posts/2023-10-07-pca/</link>
+      <link>https://etrama.github.io/posts/2023-10-07-pca/</link>
       <pubDate>Sat, 07 Oct 2023 18:36:11 -0400</pubDate>
       
-      <guid>https://Etrama.github.io/posts/2023-10-07-pca/</guid>
-      <description>View this post as a Jupyter Notebook
-Background Every year the Deloitte Machine Learning Guild hosts an their annual hackathon, which is the largest Data Science / ML hackathon of its kind within Deloitte. Interested folks form teams of 2-4 people and work on the assigned hackathon theme for a duration of 2-4 weeks, after which the teams are judged based on a variety of criteria. The judges are Deloite ML Guild Masters who are subject matter experts in ML and DS, as well as partners who are interested in the field.</description>
+      <guid>https://etrama.github.io/posts/2023-10-07-pca/</guid>
+      <description>View this post in a Jupyter Notebook
+Demystifying the mathematics behind PCA We all know PCA and we all love PCA. Our friend that helps us deal with the curse of dimensionality. All data scientists have probably used PCA. I thought I knew PCA.
+Until I was asked to explain the mathematics behind PCA in an interview and all I could murmur was that it somehow maximizes the variance of the new features.</description>
     </item>
     
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>VHDL on Old Habits AI Hard</title>
-    <link>https://Etrama.github.io/tags/vhdl/</link>
+    <link>https://etrama.github.io/tags/vhdl/</link>
     <description>Recent content in VHDL on Old Habits AI Hard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Jul 2016 13:25:11 -0400</lastBuildDate><atom:link href="https://Etrama.github.io/tags/vhdl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jul 2016 13:25:11 -0400</lastBuildDate><atom:link href="https://etrama.github.io/tags/vhdl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Undergrad Projects</title>
-      <link>https://Etrama.github.io/posts/2016-07-10-undergrad-projects/</link>
+      <link>https://etrama.github.io/posts/2016-07-10-undergrad-projects/</link>
       <pubDate>Sun, 10 Jul 2016 13:25:11 -0400</pubDate>
       
-      <guid>https://Etrama.github.io/posts/2016-07-10-undergrad-projects/</guid>
+      <guid>https://etrama.github.io/posts/2016-07-10-undergrad-projects/</guid>
       <description>Education I studied at the Manipal Institute of Technology, Manipal, India. I graduated with a Bachelor of Technology in Electronics and Communication Engineering in 2017.
 When I joined I was enrolled in the Chemical Engineering program. I switched to Electronics and Communication Engineering in my second year. I graduated with a CGPA of 8.6/10.
 Electives and Projects Electives Shell Scripting in Linux Cyptography MEMS (micro electro mechanical systems) Robotics. Projects Implemented AES (Advanced Encryption Standard) from scratch in VHDL Made a digit recognizer using the MSP420 micro-controller Built a chainsaw robot for TechTatva Built a heat exchanger </description>
