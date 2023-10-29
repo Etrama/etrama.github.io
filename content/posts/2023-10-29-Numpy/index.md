@@ -11,7 +11,7 @@ math: true
 
 # First 50 numpy exercises
 
-This is a set of exercises collected by [Rougier](https://github.com/rougier/numpy-100) in the numpy maling list, on stack overflow and in the numpy documentation. 
+This is a set of exercises collected by [Rougier](https://github.com/rougier/numpy-100).
 
 All credits to Rougier for curating this list. I am simply trying to solve it for practice and hoping it serves as a reference for others. I am surprised I didn't come across it before.
 
@@ -163,13 +163,13 @@ This might be the best thing you learn from this notebook if you weren't aware o
 np.add?
 ```
 
-    Call signature:  np.add(*args, **kwargs)
-    Type:            ufunc
-    String form:     <ufunc 'add'>
-    File:            c:\users\kaush\anaconda3\envs\stats\lib\site-packages\numpy\__init__.py
-    Docstring:      
+    [1;31mCall signature:[0m  [0mnp[0m[1;33m.[0m[0madd[0m[1;33m([0m[1;33m*[0m[0margs[0m[1;33m,[0m [1;33m**[0m[0mkwargs[0m[1;33m)[0m[1;33m[0m[1;33m[0m[0m
+    [1;31mType:[0m            ufunc
+    [1;31mString form:[0m     <ufunc 'add'>
+    [1;31mFile:[0m            c:\users\kaush\anaconda3\envs\stats\lib\site-packages\numpy\__init__.py
+    [1;31mDocstring:[0m      
     add(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj])
-
+    
     Add arguments element-wise.
     
     Parameters
@@ -1039,7 +1039,7 @@ stnd_matrix
 
 ## 23. Create a custom dtype that describes a color as four unsigned bytes (RGBA) (★☆☆)
 
-![Unsigned Byte Numpy Docs](23.png)
+![image.png](attachment:image.png)
 
 
 ```python
@@ -2052,7 +2052,7 @@ array = np.arange(0,10)
 
 Sum is supposed to be a tiny bit faster for small arrays.
 
-![Stack Overflow - Comparison of sum functions](41.png)
+![image.png](attachment:image.png)
 
 
 ```python
@@ -2448,7 +2448,7 @@ Z
 
 From Wikipedia:
 
-![Wikipedia - Cauchy Matrix](47.png)
+![image.png](attachment:image.png)
 
 I had an idea about how to do this but it was completely wrong. So here's an analysis of Rougier's solution:
 
@@ -2464,7 +2464,7 @@ Y = X + 0.5
 
 Some [docs](https://numpy.org/doc/stable/reference/generated/numpy.ufunc.outer.html) on np.ufunc.outer:
 
-![Numpy Ufunc Outer explanation](47_pic2.png)
+![image.png](attachment:image.png)
 
 
 ```python
