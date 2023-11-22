@@ -1039,7 +1039,7 @@ stnd_matrix
 
 ## 23. Create a custom dtype that describes a color as four unsigned bytes (RGBA) (★☆☆)
 
-![image.png](attachment:image.png)
+![Numpy docs on ubyte](./23.png)
 
 
 ```python
@@ -2052,7 +2052,7 @@ array = np.arange(0,10)
 
 Sum is supposed to be a tiny bit faster for small arrays.
 
-![image.png](attachment:image.png)
+![Speed comparison of different sum functions](./41.png)
 
 
 ```python
@@ -2448,7 +2448,7 @@ Z
 
 From Wikipedia:
 
-![image.png](attachment:image.png)
+![Wikipedia entry about the Cauchy matrix](./47.png)
 
 I had an idea about how to do this but it was completely wrong. So here's an analysis of Rougier's solution:
 
@@ -2464,7 +2464,7 @@ Y = X + 0.5
 
 Some [docs](https://numpy.org/doc/stable/reference/generated/numpy.ufunc.outer.html) on np.ufunc.outer:
 
-![image.png](attachment:image.png)
+![Screenshot of docs on np.ufunc.outer](./47_pic2.png)
 
 
 ```python
