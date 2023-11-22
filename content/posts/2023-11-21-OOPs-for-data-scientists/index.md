@@ -922,7 +922,7 @@ pokemon._Pokemon__speak()
     I am a Pokemon!
     
 
-At this point, you should be well and truly prepared for any OOPs questions in your Data Science interviews. We are well and truly on our way to becoming a Software Engineer in addition to being Data Scientists ʕ •ᴥ•ʔ. I do recommend that you practice writing code to practice these principles. If you wanna dig deeper into this rabbit hole (I referred to most of these myself while writing this post):
+At this point, you should be prepared for any OOPs questions in your Data Science interviews. We are well and truly on our way to becoming a Software Engineer in addition to being Data Scientists ʕ •ᴥ•ʔ. I do recommend that you practice writing code to practice these principles. If you wanna dig deeper into this rabbit hole (I referred to most of these myself while writing this post):
    - [super()](https://realpython.com/python-super/)
    - [Dive deeper into @property](https://realpython.com/python-property/#creating-read-write-attributes)
    - [Getters and setters](https://realpython.com/python-getter-setter/#using-properties-instead-of-getters-and-setters-the-python-way)
