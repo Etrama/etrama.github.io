@@ -56,7 +56,7 @@ class Pokemon:
 pikachu = Pokemon()
 ```
 
-Throughout this post, we will refer to instances and objects and they mean one and the same thing, i.e. an instance / object of a class. "pikachu" is an instance or object of the Pokemon class.
+Throughout this post, we will refer to instances and objects and they mean one and the same thing, an instance / object of a class. "pikachu" is an instance or object of the Pokemon class.
 
 ## Know thy "self" 😉
 
@@ -85,7 +85,7 @@ example.attack
 
 
 
-Though it is probably best to use the "self" keyword, as it is the convention and might confuse other people who are reading your code. Code is read more than it is written, so better follow the convention that helps readability. Let's make the Pokemon class a little more fun by randomly allowing created pokemons (pokemon objects) tp be shiny. Then we'll jump into Inheritance.
+Though it is probably best to use the "self" keyword, as it is the convention and might confuse other people who are reading your code. Code is read more than it is written, so better follow the convention that helps readability. Let's make the Pokemon class a little more fun by randomly allowing created pokemons (pokemon objects) to be shiny. Then we'll jump into Inheritance.
 
 
 ```python
@@ -146,11 +146,11 @@ for property in vars(charmander):
     shiny : False
     
 
-Even though we didn't define all the attributes for the PokemonTypeFire class, i.e. we didn't state that an instance of the PokemonTypeFire class would have attack, defense, .., shiny attributes, we see that it still does, because the PokemonTypeFire class inherited from the Pokemon class.
+Even though we didn't define all the attributes for the PokemonTypeFire class, i.e. we didn't state that an instance of the PokemonFireType class would have attack, defense, .., shiny attributes, we see that it still does, because the PokemonTypeFire class inherited from the Pokemon class.
 
-### Looping through class attributes
+### Looping through instance attributes
 
-Another little nuance, you can access the attribute values of a class like so:
+Another little nuance, you can access the attribute values of an instance like so:
 
 
 ```python
@@ -509,7 +509,7 @@ class Soft(ABC):
         pass
 ```
 
-Any python class that derives from the Abstract Base Class (ABC) as shown is an abstract class. It is a class that serves as a blueprint fo other classes. It's a blueprint because there isn't an actual real implementation of any functionality in the abstract class. Hence, if you try to create an instance / object of the abstract class, it will error out:
+Any python class that derives from the Abstract Base Class (ABC) as shown is an abstract class. It is a class that serves as a blueprint for other classes. It's a blueprint because there isn't an actual real implementation of any functionality in the abstract class. Hence, if you try to create an instance / object of the abstract class, it will error out:
 
 
 ```python
@@ -519,7 +519,7 @@ except Exception as e:
     print(f"Exception: {e}")
 ```
 
-    Exception: Can't instantiate abstract class Soft with abstract method get_price
+    Exception: Can't instantiate abstract class Soft with abstract method softness
     
 
 This non-instantiation property serves as an easy decision making tool. If you want to allow the creation of parent class objects, use normal inheritance and subclassing. If you do not want to allow the creation of parent class objects, use abstract classes.
@@ -777,7 +777,7 @@ print(f"The pokemon's defense stat is: {pokemon.defense}")
     The pokemon's defense stat is: 30
     
 
-Notice that in the above syntax, we do not access the protected properties directly.  Usually, if we had to access a getter function called attack(), we would have called pokemon.attack(). Moreover, if we had a setter function called attack(), we would have set the pokemon's attack using pokemon.attack(some_value). However, since we used the @property decorator,  the function name is treated as a property. When the function is treated as a property, we assign and retrieve values from it as if it were a property. You will be able to contrast with the non-fancy example that will follow.
+Notice that in the above syntax, we do not access the protected properties directly.  Usually, if we had to access a getter function called attack(), we would have called pokemon.attack(). Moreover, if we had a setter function called attack(), we would have set the pokemon's attack using pokemon.attack(some_value). However, since we used the @property decorator,  the function name is treated as a property. When the function is treated as a property, we assign and retrieve values from it as if it were a property. You will be able to contrast this with the non-fancy example that will follow.
 
 In the example above, we define getters and setters for the protected instance properties. We use some slightly fancy syntax to define the getters and setters, but you can choose not to do so and define them in the usual way. If you notice, this is where the Python method overloading exception comes into play. We defined the getters and setters for the protected instance properties using the same method with a different number of arguments. For instance, for the _attack property, we defined the getter with 0 arguments and the setter with 1 argument.
 
@@ -922,7 +922,7 @@ pokemon._Pokemon__speak()
     I am a Pokemon!
     
 
-At this point, you should be prepared for any OOPs questions in your Data Science interviews. We are well and truly on our way to becoming a Software Engineer in addition to being Data Scientists ʕ •ᴥ•ʔ. I do recommend that you practice writing code to practice these principles. If you wanna dig deeper into this rabbit hole (I referred to most of these myself while writing this post):
+At this point, you should be well and truly prepared for any OOPs questions in your Data Science interviews. We are well and truly on our way to becoming a Software Engineer in addition to being Data Scientists ʕ •ᴥ•ʔ. I do recommend that you practice writing code to practice these principles. If you wanna dig deeper into this rabbit hole (I referred to most of these myself while writing this post):
    - [super()](https://realpython.com/python-super/)
    - [Dive deeper into @property](https://realpython.com/python-property/#creating-read-write-attributes)
    - [Getters and setters](https://realpython.com/python-getter-setter/#using-properties-instead-of-getters-and-setters-the-python-way)
