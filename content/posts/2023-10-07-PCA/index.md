@@ -7,7 +7,6 @@ showtoc: true
 tags: ["Dimensionality Reduction", "PCA", "Machine Learning", "Linear Algebra"]
 math: true
 ---
-[View this post in a Jupyter Notebook](https://github.com/Etrama/statistics-primer/blob/main/src/001-PCA.ipynb)
 
 ## Demystifying the mathematics behind PCA
 
@@ -16,6 +15,8 @@ We all know PCA and we all love PCA. Our friend that helps us deal with the curs
 Until I was asked to explain the mathematics behind PCA in an interview and all I could murmur was that it somehow maximizes the variance of the new features. The interviewer was even kind enough to throw me a hint about projections. To my chagrin, I couldn't figure it out even then and had to admit I was stumped. I knew that I was taught the mathematics behind PCA during the first year of my Master's course, which made it feel worse. So here's a post to make sure that doesn't happen to you, dear reader, and hopefully me as well 😆.
 
 WARNING: This post will be long and mathematical as the title suggests.
+
+[View this post in a Jupyter Notebook](https://github.com/Etrama/statistics-primer/blob/main/src/001-PCA.ipynb)
 
 <hr>
 

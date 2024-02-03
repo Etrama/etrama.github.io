@@ -7,13 +7,13 @@ showtoc: true
 tags: ["Numpy", "Machine Learning", "Linear Algebra", "GitGud"]
 math: true
 ---
-[View this post in a Jupyter Notebook](https://github.com/Etrama/gitgud-with-numpy/blob/master/1-50_Numpy_exercises_etrama.ipynb)
-
 # First 50 numpy exercises
 
 This is a set of exercises collected by [Rougier](https://github.com/rougier/numpy-100).
 
 All credits to Rougier for curating this list. I am simply trying to solve it for practice and hoping it serves as a reference for others. I am surprised I didn't come across it before.
+
+[View this post in a Jupyter Notebook](https://github.com/Etrama/gitgud-with-numpy/blob/master/1-50_Numpy_exercises_etrama.ipynb)
 
 This is intended to serve as a stepping stone to becoming a better Data Scientist / Machine Learning Researcher. I came across this list on Neel Nanda's page titled ["A Barebones Guide to Mechanistic Interpretability Prerequisites"](https://www.neelnanda.io/mechanistic-interpretability/prereqs) in the hopes of being a better researcher and maybe someday working on mechanistic interpretability.
 

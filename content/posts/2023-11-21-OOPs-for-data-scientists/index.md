@@ -7,11 +7,12 @@ showtoc: true
 tags: ["Data Science", "OOPs", "Python"]
 math: false
 ---
-[View this post in a Jupyter Notebook](https://github.com/Etrama/oops-for-data-scientists/blob/main/oops-for-data-scientists.ipynb)
 
 There are 4 principles of OOPs that everyone is expected to know. I used to be one of those people who thought that it was enough to know how to read and write OOPs code without actually knowing what those principles were as I thought they were more of a software engineering concept. But it makes sense to be aware of the common terms and verbalizations of the concepts within OOPs. 
 
 Some Data Science and Machine Learning interviews will also test your OOPs knowledge. This post is an attempt to prepare you for those interviews. After all, failing to prepare is preparing to fail, right? (ᵔᴥᵔ)
+
+[View this post in a Jupyter Notebook](https://github.com/Etrama/oops-for-data-scientists/blob/main/oops-for-data-scientists.ipynb)
 
 Along the way we will also look at a couple of tricks and tips to help you code more easily. For now, we'll start with some an import:
 
