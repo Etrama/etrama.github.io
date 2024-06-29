@@ -914,7 +914,7 @@ fibonacci_basic.cache_parameters()
 
 
 
-We can define the maxsize of the cache if we like. The size is given in terms of the number of items to be stored in the cache. A maxsize of 2 will store 2 items / key-value pairs / input-output pairs in the cache. If typed is set to true, function arguments of different types will be cached separately. We can also clear the cache to stratch from scratch:
+We can define the maxsize of the cache if we like. The size is given in terms of the number of items to be stored in the cache. A maxsize of 2 will store 2 items / key-value pairs / input-output pairs in the cache. If typed is set to true, function arguments of different types will be cached separately. We can also clear the cache to start from scratch:
 
 
 ```python
@@ -983,7 +983,7 @@ factorial(100)
 
 
 
-Clearly there is some benefit to using caching with recursive functions like computing the factorial or finding fibonacci numbers. But that doesn't mean @cache should only be used with recursive functions. One can also use it with non-recursive functions:
+Clearly there is some benefit to using caching with recursive functions like computing the factorial or finding fibonacci numbers. But that doesn't mean `@cache` should only be used with recursive functions. One can also use it with non-recursive functions:
 
 
 ```python
@@ -1051,7 +1051,7 @@ As we see above, changing the order of the inputs will also impact whether the r
 
 ### Caveats of using `@cache`
 
-Say we use @cache on a wrapper for the list append function
+Say we use `@cache` on a wrapper for the list append function
 
 
 ```python
@@ -1107,7 +1107,7 @@ except TypeError as e:
     We run into a TypeError, error message: unhashable type: 'list'
     
 
-We ran into this type error because so far we conveniently ignored a requirement vis-a-vis caching, both @cache and @lru_cache decorators require the arguments to be hashable and lists are not hashable in Python. In fact both of the issues mentioned above stem from the fact that lists are immutable.
+We ran into this type error because so far we conveniently ignored a requirement vis-a-vis caching, both `@cache` and `@lru_cache` decorators require the arguments to be hashable and lists are not hashable in Python. In fact both of the issues mentioned above stem from the fact that lists are immutable.
 
 Under the hood, a dictionary is used to cache the results for quick retrieval. The keys to this hidden dictionary will be the function arguments. Hence the function arguments need to be hashable. We can solve the unhashable type problem by using tuples instead:
 
