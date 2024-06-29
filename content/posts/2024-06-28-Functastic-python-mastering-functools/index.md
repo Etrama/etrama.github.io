@@ -805,7 +805,7 @@ print(fibonacci_nums)
     [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578, 5702887, 9227465, 14930352, 24157817, 39088169, 63245986]
     
 
-I'll be focusing on wall time, since that is what we are subjected to as the user. We note that it takes 35s to compute the first 40 fibonacci numbers with the fibonacci_basic() function. We can do a little better by storing the results of previous computations, i.e. increasing space complexity for reduced time complexity.
+I'll be focusing on wall time, since that is what we are subjected to as the user. We note that it takes 72s to compute the first 40 fibonacci numbers with the fibonacci_basic() function. We can do a little better by storing the results of previous computations, i.e. increasing space complexity for reduced time complexity.
 
 
 ```python
@@ -844,7 +844,7 @@ print(fibonacci_nums)
     [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578, 5702887, 9227465, 14930352, 24157817, 39088169, 63245986]
     
 
-As you can see, this is quite the improvement! From 35s, we are down to 0 nanoseconds to compute the same 40 fibonacci numbers! However, I had to change my function and store the previous results myself :( This is where the functools cache could help us. We can use functools's cache decorator to achieve the same improvement in performance with barely any changes to our code.
+As you can see, this is quite the improvement! From 72s, we are down to 0 nanoseconds to compute the same 40 fibonacci numbers! However, I had to change my function and store the previous results myself :( This is where the functools cache could help us. We can use functools's cache decorator to achieve the same improvement in performance with barely any changes to our code.
 
 ### `@cache` decorator
 
