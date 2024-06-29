@@ -45,6 +45,9 @@ params:
       url: "https://twitter.com/Banana_Leopard"
     - name: email
       url: "mailto:kaushikmoudgalya@gmail.com"
+  customCSS:
+    - static\css\code_block_and_output.css
+
 
   # editPost:
   #       URL: "https://github.com/<gitlab user>/<repo name>/tree/<branch name>/<path to content>/"
@@ -226,11 +229,33 @@ googleAnalytics: "G-ZQRQFZ413J"
 #       weight: 30
 # # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
-# markup:
-#   highlight:
-#     noClasses: false
-#     # anchorLineNos: true
-#     # codeFences: true
-#     # guessSyntax: true
-#     # lineNos: true
-#     # style: monokai
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: native
+    # native, solarized-light, autumn
+    tabWidth: 4
+
+
+# security:
+#   exec:
+#     allow:
+#       - '^dart-sass-embedded$'
+#       - '^go$'
+#       - '^npx$'
+#       - '^postcss$'
+#       - '^pandoc$'

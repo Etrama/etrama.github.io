@@ -1429,7 +1429,6 @@ df_loaded.head()
 
 
 
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1627,8 +1626,8 @@ Using the `@cached_property` approach will help us save a lot of time!
 
 With that, we've successfully added some functools knowledge to our Python toolbox! 
 
-References:
-- https://docs.python.org/3/library/functools.html
-- https://stackoverflow.com/questions/70301475/difference-between-functools-cache-and-lru-cache
-- https://researchdatapod.com/python-typeerror-unhashable-type-list/
-- https://realpython.com/python-reduce-function/ 
+## References
+- [Functools docs](https://docs.python.org/3/library/functools.html)
+- [StackOverflow difference between cache and LRU cache](https://stackoverflow.com/questions/70301475/difference-between-functools-cache-and-lru-cache)
+- [Type Error Unhashable Type](https://researchdatapod.com/python-typeerror-unhashable-type-list/)
+- [RealPython Reduce Function](https://realpython.com/python-reduce-function/)
