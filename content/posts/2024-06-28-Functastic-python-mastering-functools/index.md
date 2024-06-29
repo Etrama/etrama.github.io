@@ -302,7 +302,7 @@ For generic class methods, use the `@singledispatchmethod` decorator rather than
 
 ## Reduce
 
-I promise to *try* to restrict my verbose of the subject material ;). It's easier to understand reduce through examples anyway:
+I promise to *try* to restrict my verbose treatment of the subject material ;). It's easier to understand reduce through examples anyway:
 
 
 ```python
