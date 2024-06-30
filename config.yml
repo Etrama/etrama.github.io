@@ -45,7 +45,8 @@ params:
       url: "https://twitter.com/Banana_Leopard"
     - name: email
       url: "mailto:kaushikmoudgalya@gmail.com"
-  customCSS: ["themes/papermod-koko/assets/css/extended/df_render.css"]
+  customCSS: ["themes/papermod-koko/assets/css/extended/df_render.css",
+            "themes/papermod-koko/assets/css/extended/jupyter_cell_output_render.css"]
 
 
   # editPost:
