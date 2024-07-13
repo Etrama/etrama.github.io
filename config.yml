@@ -12,13 +12,14 @@ params:
   homeInfoParams:
     Title: "AI come in peace \U0001F609 \U0001F44B"
     Content: "I'm Kaushik Moudgalya, welcome to my slice of the internet, Old Habits AI Hard.  
-    I am a soon to be Master's graduate from the University of Montreal & MILA. I specialize in Machine Learning and Deep Learning.  
+    I am a Master's grad from the University of Montreal & MILA. I specialize in Machine Learning and NLP.  
     Check out my projects or blog or just rest here before further internet travels. As you might have noticed, I like puns.
-    
-
-
+    <br><br>
     This page is mostly a collection of my blogs and projects. For more specific information about me, please use the links below.
-    Site currently under construction, updates in progress!
+    Site currently under construction, updates in progress!  
+    <br><br>
+    This is also my experimental page for anything random ML / DL / Coding related shenanigans that I find interesting. Any blogs with [DRAFT]
+    in the title are still work in progress and not meant for public consumption....yet. It's meant to be like a trailer but for blog posts.
     "
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Kaushik Moudgalya's personal website"
